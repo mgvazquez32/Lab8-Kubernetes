@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: desafio8
+data:
+  MONGO_URI: "mongodb://mongo-svc:27017/nest"
+  PORT: "3000"
