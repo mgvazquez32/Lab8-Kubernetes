@@ -16,4 +16,6 @@ kubectl get pods -n desafio8
 kubectl get svc -n desafio8
 kubectl get pvc -n desafio8
 kubectl logs deploy/app -n desafio8 --tail=100
+minikube ip
 curl -i http://$(minikube ip):30080/
+
